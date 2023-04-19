@@ -1,0 +1,89 @@
+@media (max-width: 1025px) {
+    /* about section */
+
+}
+
+@media (max-width: 991px) {
+
+    /*custom classes */
+    .text-content {
+        width: 100%;
+    }
+
+    /* navbar brand */
+    .navigation-wrap .navbar-brand img {
+        height: 3.8125rem;
+    }
+
+    .navigation-wrap {
+        text-align: center;
+        background-color: var(--white-color);
+    }
+
+    .navigation-wrap .nav-link {
+        line-height: 1.875rem;
+    }
+
+    /* top banner */
+    .top-banner {
+        padding: 9.375rem 0 9.375rem;
+    }
+
+    /* carosel */
+    /* .testimonial-section .carousel-item p {
+        padding: 0;
+    } */
+}
+
+@media (max-width: 767px) {
+
+    /* custom css*/
+    h1 {
+        font-size: 2.8rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+        line-height: 2.0625rem;
+    }
+
+    /* banner top */
+    .top-banner {
+        padding: 10.875rem 0 9.375rem;
+    }
+
+    .story-section {
+        height: auto;
+        padding: 3rem 0;
+    }
+
+    .testimonial-section .carousel-item {
+        padding: 11rem 3.125rem;
+    }
+
+    /* newslettar */
+    .newsletter {
+        width: 75%;
+    }
+
+    .newsletter .main-btn {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .footer .footer-link,
+    .footer a i {
+        padding: 0 07rem;
+    }
+}
+
+@media (max-width: 330px) {
+
+    /* carousel design */
+    .testimonial-section .carousel-item p {
+        padding: .5rem .5rem;
+        font-size: 1rem;
+        line-height: 100%;
+        font-weight: 400;
+    }
+}

@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 //  active navbar
 let nav = document.querySelector(".navigation-wrap");
+console.log(nav);
 window.onscroll = function () {
   if (document.documentElement.scrollTop > 20) {
     nav.classList.add("scroll-on");
@@ -31,17 +32,11 @@ window.onscroll = function () {
 };
 
 // nav hide
-// let navBar = document.querySelector(".nav-link");
-// let navCollapse = document.querySelector(".nav-collapse.collapse");
-// navBar.forEach(function (a) {
-//   a.addEventListener("click", function () {
-//     navCollapse.classList.remove("show");
-//   });
-// });
 
-document.ready(function () {
-  // Close Navbar on Click in Mobile View
-  ".navbar-nav li a".click(function (event) {
-    ".navbar-collapse".collapse("hide");
+let navBar = document.querySelectorAll(".nav-link");
+let navCollapse = document.querySelector(".navbar-collapse.collapse");
+navBar.forEach(function (a) {
+  a.addEventListener("click", function () {
+    navCollapse.classList.remove("show");
   });
 });
